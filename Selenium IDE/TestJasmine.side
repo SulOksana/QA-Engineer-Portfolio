@@ -1,0 +1,372 @@
+{
+  "id": "05ebda9b-8058-48df-a7d4-346ce56f0a32",
+  "version": "2.0",
+  "name": "TestJasmine",
+  "url": "https://jasmine.ua/en/",
+  "tests": [{
+    "id": "0dfb6c31-f1bd-4f88-86fc-a530a861d39e",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "f9969231-b874-4197-9868-1939ae2991f3",
+    "name": "Choose Collection ",
+    "commands": [{
+      "id": "02696432-46b0-481d-a31f-62cfc49b2001",
+      "comment": "",
+      "command": "open",
+      "target": "https://jasmine.ua/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e5fe3ca-69e6-4b4c-bf47-badf4051e80c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b21eca7b-b115-4404-8f28-bfc6a571ae13",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'COLLECTIONS')]",
+      "targets": [
+        ["linkText=COLLECTIONS", "linkText"],
+        ["css=.c-dropdown-trigger", "css:finder"],
+        ["xpath=//a[contains(text(),'COLLECTIONS')]", "xpath:link"],
+        ["xpath=//nav[@id='nav-head']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#nav-head')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/nav/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'COLLECTIONS')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d8cf712-24f0-438d-8767-d945e04bb81c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//ul[@id='collection-menu-l1']/li/div[2]/div/a/div[2]",
+      "targets": [
+        ["css=.item-1 .description-block", "css:finder"],
+        ["xpath=//ul[@id='collection-menu-l1']/li/div[2]/div/a/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87c782e7-4e5c-41af-9132-ab7ef3dbd707",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[@alt='EVENING in color dark blue — preview']",
+      "targets": [
+        ["css=.img:nth-child(1) .initial", "css:finder"],
+        ["xpath=//img[@alt='EVENING in color dark blue — preview']", "xpath:img"],
+        ["xpath=//div[@id='lines-list-wrap']/ul/li/div/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cb2cdb1-9bc4-45b8-971f-3c60714b911e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'DISCOVERY in fuchsia')]",
+      "targets": [
+        ["css=.filter__items--lines > .filter__item--lines:nth-child(12) span", "css:finder"],
+        ["xpath=//div[@id='lines-items']/ul/li[12]/a/span", "xpath:idRelative"],
+        ["xpath=//li[12]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'DISCOVERY in fuchsia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e016b70c-1caf-403f-b9b5-22d830a3bd64",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Bras')])[3]",
+      "targets": [
+        ["linkText=Bras", "linkText"],
+        ["css=.filter__item--category:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Bras')])[3]", "xpath:link"],
+        ["xpath=//div[@id='category-items']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/color/discovery-fuchsia/f_category--byustgalter')]", "xpath:href"],
+        ["xpath=//div[4]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "554e44ae-c922-4bfa-9ef6-9a8da399db9f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Push-up moulded bra')])[3]",
+      "targets": [
+        ["linkText=Push-up moulded bra", "linkText"],
+        ["css=.filter__item-dropdown > .filter__item--category:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Push-up moulded bra')])[3]", "xpath:link"],
+        ["xpath=//div[@id='category-items']/ul/li[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/color/discovery-fuchsia/f_category--push-up-formovannaya-chashka')]", "xpath:href"],
+        ["xpath=//div[4]/ul/li[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3618f80e-18fa-4dc6-a2d2-c20509cbf7fc",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'70')]",
+      "targets": [
+        ["linkText=70", "linkText"],
+        ["css=#size-items > .filter__item--uppercase:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'70')]", "xpath:link"],
+        ["xpath=//div[@id='size-items']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[5]", "xpath:href"],
+        ["xpath=//div[5]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'70')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b92bc222-ce54-462b-8bba-6675fdaf6762",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'B')])[25]",
+      "targets": [
+        ["linkText=B", "linkText"],
+        ["css=#cup-size-items > .filter__item--uppercase:nth-child(2)", "css:finder"],
+        ["xpath=(//a[contains(text(),'B')])[25]", "xpath:link"],
+        ["xpath=//div[@id='cup-size-items']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[8]", "xpath:href"],
+        ["xpath=//div[6]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f5cf58bd-ce13-44e5-8656-051e43ff0965",
+    "name": "Add product to a Wish List",
+    "commands": [{
+      "id": "2a6fc0b4-7179-4894-8e4a-5a0808dcf025",
+      "comment": "",
+      "command": "open",
+      "target": "https://jasmine.ua/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16cfc286-69ca-46ba-8011-f779f3f9f12a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x900",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8663e829-9089-497a-9152-e558b93dd0a7",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Swimwear')]",
+      "targets": [
+        ["css=ul:nth-child(1) > .nav__item--dropdown:nth-child(5) > .nav__link", "css:finder"],
+        ["xpath=//a[contains(text(),'Swimwear')]", "xpath:link"],
+        ["xpath=//nav[@id='nav-head']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/catalog/kupalniki')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/nav/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49cc7d81-c013-406d-828a-ad6608975cb0",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'SWIMSUIT')])[3]",
+      "targets": [
+        ["linkText=SWIMSUIT", "linkText"],
+        ["css=.filter__item--category:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'SWIMSUIT')])[3]", "xpath:link"],
+        ["xpath=//div[@id='categories-items']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/en/catalog/swimsuit1')])[2]", "xpath:href"],
+        ["xpath=//div/div/div/div[3]/div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bde1d3e2-d96a-440b-8b63-9d5ed655b231",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Beatrice')]",
+      "targets": [
+        ["linkText=Beatrice", "linkText"],
+        ["css=.cat-product:nth-child(4) > .cat-product__title", "css:finder"],
+        ["xpath=//a[contains(text(),'Beatrice')]", "xpath:link"],
+        ["xpath=//a[@onclick=\"onProductClick('6949//');\"]", "xpath:attributes"],
+        ["xpath=//div[@id='goods-list']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/en/products/beatrice-cherniy12')])[2]", "xpath:href"],
+        ["xpath=//main/div/div/div/div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Beatrice')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9d087a7-833a-4dba-8a13-d95550df812b",
+      "comment": "",
+      "command": "//mouseOver",
+      "target": "css=ul:nth-child(1) > .nav__item--dropdown:nth-child(4) > .nav__link",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92d674fa-bc65-4c69-a18c-68ad31e33983",
+      "comment": "",
+      "command": "//runScript",
+      "target": "window.scrollTo(0,57)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7bcdc02-c2ef-4751-b7a8-473528075fec",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='sizeCheck']/div",
+      "targets": [
+        ["css=.size-box__item--active", "css:finder"],
+        ["xpath=//div[@id='sizeCheck']/div", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18f0afe4-7302-4fd8-ac02-b8a3cffe4dd4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wishlist-btn--single .icon-heart-outline",
+      "targets": [
+        ["css=.wishlist-btn--single .icon-heart-outline", "css:finder"],
+        ["xpath=//div[9]/div/div/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f91917cc-c342-4bf4-ab3c-b40d0bde3301",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-actions:nth-child(2) .icon-heart",
+      "targets": [
+        ["css=.header-actions:nth-child(2) .icon-heart", "css:finder"],
+        ["xpath=//div[3]/div[2]/ul/li[2]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "664464e9-4cb4-4b61-a8cd-70ceffeac0a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-item__close > .icon-close",
+      "targets": [
+        ["css=.cart-item__close > .icon-close", "css:finder"],
+        ["xpath=//div[2]/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6e8a53d-4287-4c5b-a46d-27d2c96b1930",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[@alt='Jasmine shop']",
+      "targets": [
+        ["css=.header-logo__link > img", "css:finder"],
+        ["xpath=//img[@alt='Jasmine shop']", "xpath:img"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d9a878a8-e6cf-49c9-a1e6-b383e25443d5",
+    "name": "Add product to a cart",
+    "commands": [{
+      "id": "719c0aa5-18c5-4e4d-8b31-18322eb632ea",
+      "comment": "",
+      "command": "open",
+      "target": "https://jasmine.ua/en/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b2f7117-1616-4aba-b9dc-de96589bea50",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "731x795",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b50860b-8b65-4356-8507-381658d65af1",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'T-shirts')]",
+      "targets": [
+        ["css=ul:nth-child(1) > .nav__item--dropdown:nth-child(7) > .nav__link", "css:finder"],
+        ["xpath=//a[contains(text(),'T-shirts')]", "xpath:link"],
+        ["xpath=//nav[@id='nav-head']/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/en/catalog/mayki')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/nav/ul/li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54694b3a-87e5-480e-81b5-a07412e20dce",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[@alt='Shirt Destin, color: black — preview 2']",
+      "targets": [
+        ["css=.cat-product:nth-child(2) .second", "css:finder"],
+        ["xpath=//img[@alt='Shirt Destin, color: black — preview 2']", "xpath:img"],
+        ["xpath=//div[@id='goods-list']/ul/li/div[2]/a/img[2]", "xpath:idRelative"],
+        ["xpath=//img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c561096-ec69-4d11-accf-f637fa80538e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='sizeCheck']/div[2]",
+      "targets": [
+        ["css=#sizeCheck > .size-box__item--single:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='sizeCheck']/div[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e357279c-3394-473d-885e-c54f3e2547af",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@id='buy_button']",
+      "targets": [
+        ["id=buy_button", "id"],
+        ["css=#buy_button", "css:finder"],
+        ["xpath=//button[@id='buy_button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Buy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8478801-884b-4149-a7ce-2fc5672862e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-actions:nth-child(3) .icon-shop-bag",
+      "targets": [
+        ["css=.header-actions:nth-child(3) .icon-shop-bag", "css:finder"],
+        ["xpath=//li[3]/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61950e88-0727-41fb-b0ae-18fd6441f6d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cart-item__close > .icon-close",
+      "targets": [
+        ["css=.cart-item__close > .icon-close", "css:finder"],
+        ["xpath=//div[2]/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "980304b5-e659-4150-adc2-807911a28e2b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@type='submit']",
+      "targets": [
+        ["css=.btn--uppercase", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='subscribe-form']/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6ec6ed4a-165f-4f6c-ab80-f4ddc5618ae2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0dfb6c31-f1bd-4f88-86fc-a530a861d39e"]
+  }],
+  "urls": ["https://jasmine.ua/en/"],
+  "plugins": []
+}
