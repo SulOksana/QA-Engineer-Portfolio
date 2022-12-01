@@ -1,0 +1,128 @@
+{
+	"id": "77d20b65-35f9-42f7-93b0-cee6cb96820f",
+	"name": "New Collection",
+	"timestamp": "2022-11-07T11:43:28.843Z",
+	"collection_id": "22951213-099c3480-0452-439a-8abb-be044882cec7",
+	"folder_id": "22951213-db828721-fae8-459d-aa90-7a9ba10c4850",
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "4702403a-90dc-4cd2-a7fa-f99a43b22e27",
+			"name": "Add pet",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 115,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				115
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "d68869f5-cf9a-4e08-8648-527b3fc4872d",
+			"name": "Get pet",
+			"url": "https://petstore.swagger.io/v2/pet/9223372036854775807",
+			"time": 114,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				114
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "23759965-9cad-4dfb-9587-435d6d30206a",
+			"name": "Update pet using Post request",
+			"url": "https://petstore.swagger.io/v2/pet/9223372036854775807?name=Max2&status=available%20%20",
+			"time": 114,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				114
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a5eec706-7263-4b3e-8337-63bfac8e445b",
+			"name": "Get pet by Status",
+			"url": "https://petstore.swagger.io/v2/pet/findByStatus?status=sold",
+			"time": 157,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				157
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e74030cf-dce3-4ada-8f4d-c1f839383072",
+			"name": "Update pet",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 114,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				114
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 614,
+	"collection": {
+		"requests": [
+			{
+				"id": "4702403a-90dc-4cd2-a7fa-f99a43b22e27",
+				"method": "POST"
+			},
+			{
+				"id": "d68869f5-cf9a-4e08-8648-527b3fc4872d",
+				"method": "GET"
+			},
+			{
+				"id": "23759965-9cad-4dfb-9587-435d6d30206a",
+				"method": "POST"
+			},
+			{
+				"id": "a5eec706-7263-4b3e-8337-63bfac8e445b",
+				"method": "GET"
+			},
+			{
+				"id": "e74030cf-dce3-4ada-8f4d-c1f839383072",
+				"method": "PUT"
+			}
+		]
+	}
+}
