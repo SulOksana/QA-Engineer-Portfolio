@@ -1,0 +1,11 @@
+USE bank;
+SELECT * FROM Client;
+SELECT COUNT(FirstName) FROM Client WHERE FirstName LIKE 'O%';
+SELECT COUNT(FirstName) FROM Client WHERE Age >30;
+SELECT Min(Age) as MinimumAge FROM Client;
+SELECT Min(FirstName) FROM Client;
+SELECT Max(Age) FROM Client;
+SELECT * FROM Client WHERE Age =(SELECT Max(Age)FROM Client);
+SELECT Max(FirstName) FROM Client;
+SELECT AVG(Age) FROM Client;
+SELECT Sum(Age) FROM Client;

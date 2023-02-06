@@ -1,0 +1,11 @@
+USE bank;
+SELECT * FROM Client;
+SELECT idClient, FirstName, LastName FROM Client;
+SELECT idClient, FirstName, LastName FROM Client WHERE idClient=5;
+SELECT idClient, FirstName, LastName FROM Client WHERE FirstName LIKE 'M%';
+SELECT idClient, FirstName, LastName FROM Client WHERE FirstName LIKE '%a';
+SELECT idClient, FirstName, LastName FROM Client WHERE FirstName LIKE '%a%';
+SELECT idClient, FirstName, LastName, Age FROM Client WHERE Age >30;
+SELECT idClient, FirstName, LastName, Age FROM Client WHERE Age >30 AND Age <40;
+SELECT idClient, FirstName, LastName, Age FROM Client WHERE Age >30 AND FirstName LIKE 'O%';
+SELECT idClient, FirstName, LastName, Age FROM Client WHERE Age <>30 OR FirstName LIKE 'O%';
