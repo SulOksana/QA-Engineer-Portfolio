@@ -1,0 +1,28 @@
+Managing DBs & Collections
+db.getCollectionNames()
+show users
+db.getCollectionInfos()
+db.createCollection("movies2")
+db.movies2.drop()
+db.movies.renameCollection("movies2")
+db.movies.validate()
+version()
+db.movies.totalSize()
+db.movies.storageSize()
+db.movies.stats()
+db.hostInfo()
+
+Finding Documents
+show databases
+use moviebox
+db.movies.find({},{title:1,director:1})
+db.movies.findOne({_id: ObjectId("63dbc437ff854167984f4616")})
+db.movies.findOne({_id: ObjectId("63dbc437ff854167984f4616")},{title:1})
+
+Limiting & Sorting Data
+db.movies.find()
+db.movies.find().count()
+db.movies.countDocuments()
+db.movies.find().limit(5)
+db.movies.find({director: 'Quentin Tarantino'}).sort({rating: -1})
+db.movies.drop()
